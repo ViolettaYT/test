@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Display</title>
+    <title>DhaniOfficiall || Database</title>
 
     <style>
         body {
             background-color: black;
             color: white;
         }
-
-        #json-container {
-            white-space: pre-wrap;
-        }
     </style>
 </head>
 <body>
 
-    <div id="json-container"></div>
+    <pre id="json-container"></pre>
 
     <script>
         // Contoh data JSON
@@ -46,7 +42,7 @@
         };
 
         // Menampilkan data JSON dalam elemen dengan id "json-container"
-        document.getElementById("json-container").innerHTML = JSON.stringify(jsonData, null, 5);
+        document.getElementById("json-container").innerHTML = JSON.stringify(jsonData, null, 2);
     </script>
 
 </body>
